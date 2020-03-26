@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Black Desert | PEARL ABYSS</title>
+    <meta name="keywords" content="Black Desert, BD, Game, MMORPG, black desert, Online Game, RPG, Role-Playing Game, Open World, Black Desert Forum, BD Forum, Pearl Abyss">
+    <meta name="description" content="150 countries, 10 million users, Black Desert - Heart-pumping action and adventures await, in an open world MMORPG.">
+    <link rel="shortcut icon" href="https://s1.pearlcdn.com/SEA/contents/img/common/favicon16.ico" type="image/x-icon" sizes="16x16">
+    <link rel="shortcut icon" href="https://s1.pearlcdn.com/SEA/contents/img/common/favicon64.ico" type="image/x-icon" sizes="64x64">
+    <link rel="shortcut icon" href="https://s1.pearlcdn.com/SEA/contents/img/common/favicon114.ico" type="image/x-icon" sizes="114x114">
+    <link rel="shortcut icon" href="https://s1.pearlcdn.com/SEA/contents/img/common/favicon128.ico" type="image/x-icon" sizes="128x128">
+    <link rel="shortcut icon" href="https://s1.pearlcdn.com/SEA/contents/img/common/favicon256.ico" type="image/x-icon" sizes="256x256">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Windows Phone -->
+    <!-- iOS Safari -->
+    <meta name="theme-color" content="#BFBEC1">
+    <meta name="msapplication-navbutton-color" content="#BFBEC1">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+</head>
+
+<!--구조는 header /  main / footer  구조로 하는게 기본-->
+<!-- header는 contents 위로 따로 빼야함 -->
+<!-- 주된 컨텐츠를 강조하기위해 main으로 사용하는게 좋다.. main 태그를 사용하면 class 사용안해도됨  -->
+<!-- depth 를 줄이는게 좋음-->
+<!-- a태그에 안보여지는 내용이라도  span blind로 링크의 이동경로 넣어두기   -->
+<!-- 단일태그 / 닫는 역슬래시 넣어주기 -->
+<body>
+    <h1 class="blind">blackdesert underwater cave event</h1>
+    <div class="wrap">
+        <h2 class="blind">The beginning of an underwater cave adventure</h2>
+        <header>
+            <div class="left">
+                <a href="https://www.kr.playblackdesert.com"><span class="blind">검은사막 공식 홈페이지로 이동</span><img src="./img/whitelogo.png" loading="lazy" alt="검은사막 글로벌 로고" /></a>
+            </div>
+            <div class="right">
+                <a href="https://www.kr.playblackdesert.com" class="home"><span class="blind">검은사막 공식 홈페이지로 이동</span><i class="icn_home"></i></a>
+                <a href="#none" title="오늘 하루 그만보기" class="close">Don't show today <i class="icn_close"></i></a>
+            </div>
+        </header>
+        <main>
+            <div class="title_area">
+                <span class="small_title">Access reward event</span>
+                <div class="main_title sign">
+                    <span class="fast-flicker">underwater cave</span><br /><span class="flicker">adventure</span>
+                  </div>
+                <a href="#layer" class="play_btn"><img src="./img/btn_play.png" loading="lazy" alt="영상 플레이 버튼" /></a>
+            </div>
+            <div class="floating_area">
+                <a href="#none" target="_blank" rel="noopener" class="first_floating">
+                    <div class="hover">
+                        <span class="blind">어드벤처 게시판으로 이동</span>
+                        <div class="sub_tit">CLICK ME</div>
+                    </div>
+                </a>
+                <a href="#none" target="_blank" rel="noopener" class="second_floating">
+                    <div class="hover">
+                        <span class="blind">모험 안내 게시판으로 이동</span>
+                        <div class="sub_tit">CLICK ME</div>
+                    </div>
+                </a>
+                <a href="#none" target="_blank" rel="noopener" class="third_floating">
+                    <div class="hover">
+                        <span class="blind">이벤트 참여 게시판으로 이동</span>
+                        <div class="sub_tit">CLICK ME</div>
+                    </div>
+                </a>
+            </div>
+            <div class="bg_area">
+                <div class="dark_bg"><span class="blind">어두운 검은사막 해저</span></div>
+                <div class="light_bg"><span class="blind">빛나는 검은사막 해저</span></div>
+            </div>
+        </main>
+        <footer>
+            <h2 class="blind">pearlabyss information</h2>
+            <a href="https://www.pearlabyss.com/" target="_blank" rel="noopener"><span class="blind">펄어비스 공식 홈페이지로 이동</span><img src="./img/img_footer_logo.png" loading="lazy" alt="펄어비스 로고" /></a>
+            <span>Copyright ⓒ Pearl Abyss Corp. All rights reserved.</span>
+        </footer>
+
+        <!-- video popup -->
+        <div id="layer">
+            <div class="inner">
+              <div class="cont">
+                  <!-- frameborder="0"  allowfullscreen="" 안넣는게 맞는가?  -->
+                <iframe id="player" width="320" height="180" src="https://www.youtube.com/embed/-imFzi9QJZ0"></iframe>
+              </div>
+              <a href="#none" class="close"><span class="blind">해저모험영상</span></a>
+            </div>
+        </div>
+        <div class="dim"></div>
+    </div>
+
+    <script src="./js/jquery-3.4.1.slim.min.js"></script>
+    <script src="http://www.jqueryscript.net/demo/jQuery-Plugin-For-Water-Ripple-Animation-ripples/js/jquery.ripples.js"></script>
+    <script src="style.js"></script>
+</body>
+
+</html>
